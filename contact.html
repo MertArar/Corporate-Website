@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryap Yapı Tasarım</title>
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Header Kısmı-->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="images/aryaplogobeyaz.png" alt="logo" />
+      </a>
+
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar">Menu</label>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">ANASAYFA</a></li>
+          <li><a href="#aboutid">HAKKIMIZDA</a></li>
+          <li>
+            <a href="reference.html">PROJELER</a>
+            <ul>
+              <li><a href="gallery-kitchen.html">Mutfak</a></li>
+              <li><a href="gallery-bathroom.html">Banyo</a></li>
+              <li><a href="gallery-door.html">Okul Mobilyaları</a></li>
+              <li><a href="gallery-design.html">İç Dekorasyon</a></li>
+            </ul>
+          </li>
+          <li><a href="#partnerid">ÇALIŞMA ORTAKLARIMIZ</a></li>
+          <li><a href="contact.html">İLETİŞİM</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Contact Kısmı-->
+    <section class="contact" id="contant">
+      <div class="heading">
+        <h1>İLETİŞİM</h1>
+      </div>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.8270216543733!2d32.53826365634461!3d37.93447132397621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d091d7925a8fff%3A0xf62651a3ed3a5655!2sFevzi%C3%A7akmak%2C%2010733.%20Sk.%20No%3A4%2C%2042050%20Karatay%2FKonya!5e0!3m2!1str!2str!4v1668643880755!5m2!1str!2str"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>Bize Ulaşın</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+
+          <input type="submit" value="Gönder" class="btn" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
