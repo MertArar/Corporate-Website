@@ -357,6 +357,7 @@ header label {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: -150px;
 }
 
 .partner h3 {
