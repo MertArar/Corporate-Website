@@ -3,10 +3,11 @@
   --corparate-color: #0f2535;
   --border-color: #707070;
   --footer-color: #061016;
+  --back-color: #24292d;
+  --gold-color: #c6911f;
 }
 
 * {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,9 +17,7 @@
   text-transform: capitalize;
   font-weight: 400;
   transition: 0.2s linear;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  font-size: 62.5%;
 }
 
 *::selection {
@@ -35,22 +34,51 @@ html {
   transform: translateX(-30rem);
 }
 
-.btn {
-  height: 3.5rem;
-  width: 15rem;
-  background: var(--corparate-color);
-  color: var(--main-color);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 0.5rem;
-  font-size: 1.7rem;
-  cursor: pointer;
-  margin: 1rem 0;
-  box-shadow: 0 0.2rem 0.3rem var(--corparate-color);
-  opacity: 0.9;
+.btnref {
+  background: #fcfafa;
+  padding: 20px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111111;
+  border: none;
+  outline: none;
 }
 
-.btn:hover {
-  opacity: 1;
+.btnref:hover {
+  background-color: var(--corparate-color);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 0.7rem;
+}
+
+.gallery .heading {
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Dosis", sans-serif;
+  color: #0f2535;
+  padding: 0 2rem;
+  padding: 2rem 0;
+}
+.gallery .title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--corparate-color);
+}
+
+.gallery .title a {
+  color: var(--corparate-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gallery title a:hover {
+  color: var(--gold-color);
 }
 
 .gallery {
@@ -58,22 +86,22 @@ html {
 }
 
 .gallery .box-container {
-  padding: 7rem 0;
+  padding: 2rem 0;
 }
 
 .gallery .box-container .box {
   width: 75%;
-  margin: 4rem auto;
+  margin: 2rem auto;
   border-radius: 0.5rem;
-  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: #e8e8e8;
+  background: #fcfafa;
 }
 
 .gallery .box-container .box .image {
-  height: 45rem;
+  height: 50rem;
   width: 70%;
 }
 
@@ -87,6 +115,9 @@ html {
   height: 100%;
   width: 50%;
   padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .gallery .box-container .box:nth-child(even) {
@@ -104,13 +135,18 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-family: "Dosis", sans-serif;
 }
 
 .gallery .box-container .box .content p {
   color: var(--corparate-color);
   font-size: 1.5rem;
   padding: 1rem 0;
-  font-weight: 400;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  font-family: "Dosis", sans-serif;
 }
 
 /* media queries  */

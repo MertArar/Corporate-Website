@@ -13,12 +13,23 @@
   box-sizing: border-box;
 }
 
+.projectpage-image {
+  margin-bottom: -350px;
+  margin-top: 300px;
+  border: 10px solid transparent;
+}
+
+.projectpage-image img {
+  border: 10px solid transparent;
+}
+
 .wrapper {
   background-color: var(--back-color);
   width: 100%;
   margin: 0 auto;
   padding: 50px 0;
   transition: all 0.3s ease;
+  margin-bottom: 15rem;
   margin-top: 15rem;
 }
 

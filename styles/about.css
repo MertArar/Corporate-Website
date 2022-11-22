@@ -1,0 +1,116 @@
+:root {
+  --main-color: #e8e8e8;
+  --corparate-color: #0f2535;
+  --border-color: #707070;
+  --back-color: #24292d;
+  --gold-color: #c6911f;
+  --footer-color: #061016;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.about .main img {
+  width: 580px;
+  max-width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+
+.all-text {
+  width: 800px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.main {
+  width: 1290px;
+  min-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.all-text h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #777777;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.all-text h1 {
+  font-size: 65px;
+  color: #111111;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.all-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #777777;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.btn button {
+  background: #fff;
+  padding: 20px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #111111;
+  border: none;
+  outline: none;
+}
+
+.btn button:hover {
+  background-color: var(--corparate-color);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn .btn {
+  background-color: #111111;
+  color: #fff;
+}
+
+@media screen and(max-width: 1250px) {
+  .about {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+  }
+  .all-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+@media screen and(max-width: 650px) {
+  .about .main img {
+    margin-bottom: 35px;
+  }
+  .all-text h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+}

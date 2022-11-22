@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aryap Yapı Tasarım</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/main-reference.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main-reference.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Noto+Serif+Telugu:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <stlye> </stlye>
   <body>
@@ -27,7 +46,7 @@
           <li><a href="index.html">ANASAYFA</a></li>
           <li><a href="#aboutid">HAKKIMIZDA</a></li>
           <li>
-            <a href="reference.html">PROJELER</a>
+            <a href="project.html">PROJELER</a>
             <ul>
               <li><a href="gallery-kitchen.html">Mutfak</a></li>
               <li><a href="gallery-bathroom.html">Banyo</a></li>
@@ -35,41 +54,48 @@
               <li><a href="gallery-design.html">İç Dekorasyon</a></li>
             </ul>
           </li>
-          <li><a href="#partnerid">ÇALIŞMA ORTAKLARIMIZ</a></li>
+          <li><a href="#partnerid">ÇÖZÜM ORTAKLARIMIZ</a></li>
           <li><a href="contact.html">İLETİŞİM</a></li>
         </ul>
       </nav>
     </header>
     <!-- ANASAYFA BÖLÜMÜ -->
     <div id="homeid">
-    <div class="home"></div>
-  </div>
-    <!-- HAKKIMIZDA BÖLÜMÜ -->
-    <section id="aboutid" class="hakkimizda">
-      <div class="about">
-      <div class="content">
-        <div class="about-title"><h3>HAKKIMIZDA</h3></div>
-        <hr class="divider" />
-        <div class="about-text">
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+      <div id="slider">
+        <figure>
+          <img src="./images/mainbackground.png" />
+          <img src="./images/mainbackground2.png" />
+          <img src="./images/mainbackground3.png" />
+        </figure>
       </div>
+    </div>
+    <!-- HAKKIMIZDA BÖLÜMÜ -->
+    <section id="aboutid" class="about">
+      <div class="main">
+        <img src="images/about.png" />
+        <div class="all-text">
+          <h4>HAKKIMIZDA</h4>
+          <h1>A House of Creative & Intelligent</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est ut
+            esse fugiat dignissimos corporis inventore quas iure saepe ipsam!
+          </p>
+          <div class="btn">
+            <button type="button">Our Team</button>
+            <button type="button" class="btn2">Learn More</button>
+          </div>
+        </div>
       </div>
     </section>
-    
+
     <!-- REFERANS BÖLÜMÜ -->
     <section class="gallery" id="gallery">
-      <h1 class="heading">our gallery</h1>
-      <h3 class="title">explore the most visited places</h3>
+      <h1 class="heading">PROJELER</h1>
+      <div class="title">
+        <a href="#"
+          >projelerimizi keşfedin! <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
 
       <div class="box-container">
         <div class="box">
@@ -83,7 +109,7 @@
               soluta aut mollitia doloremque officiis, neque blanditiis
               asperiores voluptatibus commodi aperiam.
             </p>
-            <a href="#"><button class="btn">explore!</button></a>
+            <a href="#"><button class="btnref">keşfet!</button></a>
           </div>
         </div>
 
@@ -98,7 +124,7 @@
               soluta aut mollitia doloremque officiis, neque blanditiis
               asperiores voluptatibus commodi aperiam.
             </p>
-            <a href="#"><button class="btn">explore!</button></a>
+            <a href="#"><button class="btnref">keşfet!</button></a>
           </div>
         </div>
 
@@ -113,7 +139,7 @@
               soluta aut mollitia doloremque officiis, neque blanditiis
               asperiores voluptatibus commodi aperiam.
             </p>
-            <a href="#"><button class="btn">explore!</button></a>
+            <a href="#"><button class="btnref">keşfet!</button></a>
           </div>
         </div>
 
@@ -128,53 +154,123 @@
               soluta aut mollitia doloremque officiis, neque blanditiis
               asperiores voluptatibus commodi aperiam.
             </p>
-            <a href="#"><button class="btn">explore!</button></a>
+            <a href="#"><button class="btnref">keşfet!</button></a>
           </div>
         </div>
       </div>
     </section>
+
     <!-- ÇÖZÜM ORTAKLARIMIZ -->
-    
+
     <section id="partnerid">
       <div class="partner">
-      <h3>ÇALIŞMA ORTAKLARIMIZ</h3>
-      <div class="container">
-        <div class="box">
-          <a href="https://www.franke.com/tr/tr/home.html"><img src="images/franke.jpg"></a>
-        </div>
-        <div class="box">
-          <a href="https://web.hettich.com/tr-tr/ana-sayfa"><img src="images/hettichlogo.png"></a>
-        </div>
-        <div class="box">
-          <a href="https://www.hafele.com.tr/tr/"><img src="images/hafele-logo-png-transparent.png"></a>
-        </div>
-        <div class="box">
-          <a href="https://www.cebidesign.com/tr/mobilya-aksesuarlari"><img src="images/cebilogo.jpg"></a>
+        <div class="our-clients">
+          <h3>ÇÖZÜM ORTAKLARIMIZ</h3>
+          <div class="container-partner">
+            <div class="box">
+              <a href="https://www.franke.com/tr/tr/home.html"
+                ><img src="images/franke.jpg"
+              /></a>
+            </div>
+            <div class="box">
+              <a href="https://web.hettich.com/tr-tr/ana-sayfa"
+                ><img src="images/hettichlogo.png"
+              /></a>
+            </div>
+            <div class="box">
+              <a href="https://www.hafele.com.tr/tr/"
+                ><img src="images/hafele-logo-png-transparent.png"
+              /></a>
+            </div>
+            <div class="box">
+              <a href="https://www.cebidesign.com/tr/mobilya-aksesuarlari"
+                ><img src="images/cebilogo.jpg"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </section>    
-    
+    </section>
+
     <!-- FOOTER BÖLÜMÜ -->
-  
+
     <footer>
-      <div class="footer-content">
-        <h3>ARYAP Yapı Tasarım</h3>
-        <p><i>mutluluğu tasarlıyoruz</i></p>
-        <ul class="socials">
-          <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="https://www.linkedin.com/company/83006022"><i class="fa fa-linkedin-square"></i></a></li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        <p>copyright &copy;2022 Aryap Yapı Tasarım. powered by <span><a href="https://www.linkedin.com/in/mert-arar-6788771bb/" class="mertarar">Mert Arar</a></span></p>
+      <div class="footer__area">
+        <div class="content__footer">
+          <div class="profil">
+            <div class="logo__area">
+              <a href="index.html">
+                <img src="images/aryaplogobeyaz.png" alt="logo" />
+              </a>
+            </div>
+            <div class="desc__area">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+                consequatur corporis saepe libero eveniet!
+              </p>
+            </div>
+            <div class="social__media">
+              <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+              <a href="#"><i class="bx bxl-facebook-square"></i></a>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+          </div>
+          <div class="service__area">
+            <ul class="service__header">
+              <div class="service__name">
+                <a href="index.html">Kurumsal</a>
+              </div>
+              <div class="service__subname">
+                <li><a href="#aboutid">Hakkımızda</a></li>
+                <li><a href="#partnerid">Çözüm Ortaklarımız</a></li>
+              </div>
+            </ul>
+            <ul class="service__header">
+              <div class="service__name">
+                <a href="project.html">Projeler</a>
+              </div>
+              <div class="service__subname">
+                <li><a href="gallery-kitchen.html">Mutfak</a></li>
+                <li><a href="gallery-bathroom.html">Banyo</a></li>
+                <li><a href="gallery-door.html">Okul Mobilyaları</a></li>
+                <li><a href="gallery-design.html">İç Dekorasyon</a></li>
+              </div>
+            </ul>
+            <ul class="service__header">
+              <div class="service__name">
+                <a href="index.html">Destek</a>
+              </div>
+              <div class="service__subname">
+                <li><a href="contact.html">İletişim</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="footer__bottom">
+          <div class="copy__right">
+            <p>
+              copyright &copy;2022 Aryap Yapı Tasarım. powered by
+              <span
+                ><a
+                  href="https://www.linkedin.com/in/mert-arar-6788771bb/"
+                  class="mertarar"
+                  >Mert Arar</a
+                ></span
+              >
+            </p>
+          </div>
+          <div class="tou">
+            <a href="https://www.linkedin.com/in/%C3%B6zge-nika-6750581ba/"
+              >Designer</a
+            >
+            <a href="https://www.linkedin.com/in/berkayisilak/"
+              >Back-end Developer</a
+            >
+            <a href="#">KVKK</a>
+          </div>
+        </div>
       </div>
     </footer>
-    
-    
   </body>
 </html>
-
-
